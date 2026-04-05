@@ -1,0 +1,340 @@
+{
+  "Metadata": {
+    "title": "Amphoras Wine - Jarres en Ceramique pour le Vin",
+    "description": "Équipement professionnel de vinification — Jarres en céramique à température contrôlée pour la fermentation et l'élevage du vin, fabriquées à Rongchang, Chongqing, Chine. Amphores et jarres céramiques premium pour les domaines viticoles.",
+    "keywords": "équipement de vinification,jarre en céramique pour vin,jarre de fermentation en céramique,amphore à vin,cuve de fermentation en céramique,jarre de vieillissement du vin,équipement de cave,amphore céramique"
+  },
+  "CasesMetadata": {
+    "title": "Realisations",
+    "description": "Decouvrez nos projets vinicoles reussis dans les premieres regions viticoles de Chine, notamment Ningxia, Sichuan, Yunnan, et sur les marches internationaux."
+  },
+  "Navbar": {
+    "brand": "Chengjing Ceramics",
+    "technology": "Technologie",
+    "story": "Notre Histoire",
+    "advantages": "Avantages",
+    "products": "Produits",
+    "cases": "Realisations",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "tagline": "Equipement Vinicole Professionnel",
+    "title": "Jarres en Céramique pour Vin — Fermentation et Élevage Intégrés",
+    "subtitle": "Jarres en ceramique artisanales avec controle precis de la temperature pour une vinification exceptionnelle",
+    "cta": "Decouvrir Nos Jarres",
+    "history": "Notre Histoire",
+    "divider": "Equipement de vinification issu de la nature"
+  },
+  "ProductStructure": {
+    "title": "Architecture Professionnelle",
+    "subtitle": "La structure qu'une jarre vinicole professionnelle devrait avoir",
+    "temperature": {
+      "title": "Systeme de Controle de Temperature",
+      "items": [
+        "Affichage du thermometre",
+        "Port du capteur de temperature",
+        "Systeme de circulation en serpentin inox"
+      ]
+    },
+    "sampling": {
+      "title": "Systeme de Prelevement",
+      "items": [
+        "Vanne de prelevement",
+        "Conception de vanne de fond",
+        "Controle par clapet anti-retour"
+      ]
+    },
+    "gas": {
+      "title": "Controle des Gaz",
+      "items": [
+        "Vanne d'injection d'azote",
+        "Entree d'eau de refroidissement",
+        "Port d'evacuation de 25cm"
+      ]
+    }
+  },
+  "BrandStory": {
+    "title": "Notre Patrimoine",
+    "subtitle": "De Rongchang, l'une des quatre regions renommees d'argile pourpre de Chine",
+    "regions": "(Yixing, Rongchang, Qinzhou, Jianshui)",
+    "features": [
+      {
+        "title": "Des Siecles d'Expertise Ceramique",
+        "desc": "Rongchang est le premier producteur chinois de grandes jarres de 1000L, fournisseur designe des meilleures distilleries chinoises."
+      },
+      {
+        "title": "Teneur en Fer Optimale",
+        "desc": "Notre argile contient 7-8% de fer, offrant des proprietes catalytiques essentielles pour le developpement du vin tout en preservant les aromes fruites."
+      },
+      {
+        "title": "Tests Reguliers des Materiaux",
+        "desc": "Des inspections periodiques garantissent l'absence de metaux lourds dans notre argile, assurant la securite et la qualite du vin."
+      },
+      {
+        "title": "Micro-Oxygenation Controlee",
+        "desc": "Nous personnalisons la permeabilite a l'oxygene pour differents vins, protegeant et developpant des caracteristiques fruitees superieures."
+      }
+    ],
+    "craftsmanship": {
+      "title": "Processus Artisanal",
+      "subtitle": "Un melange parfait d'artisanat traditionnel et de technologie moderne"
+    }
+  },
+  "CoreAdvantages": {
+    "title": "Avantages Cles",
+    "subtitle": "Ce qui distingue nos jarres",
+    "items": [
+      {
+        "title": "Structure de Triple Protection",
+        "desc": "Notre structure superieure proprietaire comprend un clapet anti-retour, une protection a l'azote et un joint hydraulique sans oxygene unique, offrant une fraicheur nettement plus longue que les jarres conventionnelles."
+      },
+      {
+        "title": "Conception a Grande Ouverture",
+        "desc": "Notre port de dechargement plus grand simplifie les operations de fermentation. L'effet de ventilation ameliore permet au contenu de secher en 2 heures, contre plus de 48 heures pour les conceptions a petite ouverture, empechant la croissance bacterienne."
+      },
+      {
+        "title": "Solution Style Bourgogne",
+        "desc": "Pour les vins blancs, certaines jarres incluent un batonnage automatique des lies. Combine avec notre programme de douelles de chene, obtenez des vins blancs de style bourguignon."
+      },
+      {
+        "title": "Programme Chene Mature",
+        "desc": "Notre approche raffinee d'elevage sur douelles de chene preserve les aromes fruites abondants tout en apportant la complexite d'un fut de chene. Les douelles peuvent etre retirees sans soutirage."
+      }
+    ],
+    "showcase": {
+      "title": "Vitrine Produits",
+      "subtitle": "Conception professionnelle, qualite garantie"
+    },
+    "noLeak": {
+      "title": "Garantie Zero Fuite",
+      "emphasis": "Absolument etanche",
+      "desc": "Notre traitement de surface unique garantit zero fuite, empechant les taches de vin residuel sur la surface de la jarre."
+    },
+    "services": [
+      {
+        "title": "Excellence du Service",
+        "desc": "Recommande par l'Alliance des Vinificateurs"
+      },
+      {
+        "title": "Conception Double Usage",
+        "desc": "Fermentation et stockage integres"
+      },
+      {
+        "title": "Mises a Jour Gratuites",
+        "desc": "Optimisation continue et support a vie"
+      }
+    ]
+  },
+  "ProductLineup": {
+    "title": "Produits et Tarifs",
+    "subtitle": "Presentation des Produits et Tarification",
+    "spirits": {
+      "name": "Jarre d'Elevage pour Spiritueux",
+      "price": "1 100 EUR",
+      "priceNote": "Livraison au domaine incluse",
+      "gift": "Programme de seasoning style whisky offert",
+      "giftDesc": "Protocole professionnel de seasoning pour ameliorer le developpement des spiritueux",
+      "features": [
+        { "title": "Concu pour l'elevage des spiritueux", "desc": "Ideal pour whisky, brandy, etc." },
+        { "title": "Argile de premiere qualite", "desc": "Excellente respirabilite pour l'elevage" },
+        { "title": "Surveillance precise de la temperature", "desc": "Equipe d'un thermometre et d'une vanne" },
+        { "title": "Etancheite superieure", "desc": "Perte par evaporation minimisee" }
+      ]
+    },
+    "gen1": {
+      "name": "Gen 1 - Sans Controle de Temperature",
+      "price": "1 550 EUR",
+      "priceNote": "Livraison au domaine incluse",
+      "features": [
+        { "title": "Triple protection AV", "desc": "Defense multi-couches" },
+        { "title": "Crochets pour douelles", "desc": "Installation facile des douelles" },
+        { "title": "Paroi micro-oxygenante", "desc": "Controle precis de l'oxydation" },
+        { "title": "Vannes fond et cote", "desc": "Double systeme de soutirage" },
+        { "title": "Grande trappe d'acces", "desc": "Nettoyage et entretien faciles" },
+        { "title": "Agitateur de lies en option", "desc": "Accessoire optionnel" },
+        { "title": "Thermometre et prelevement", "desc": "Surveillance et echantillonnage" }
+      ]
+    },
+    "gen2": {
+      "name": "Gen 2 - Avec Controle de Temperature",
+      "basic": {
+        "label": "Basique",
+        "price": "1 900 EUR",
+        "desc": "Controle manuel de la temperature par echange thermique via serpentin interne"
+      },
+      "premium": {
+        "label": "Premium",
+        "tag": "Recommande",
+        "price": "2 800 EUR",
+        "desc": "Controle automatique : serpentin interne pour le refroidissement, chauffage de fond pour les lies, favorisant l'autolyse des levures"
+      },
+      "features": [
+        { "title": "Entree eau froide", "desc": "Systeme de temperature precis" },
+        { "title": "Sortie eau froide", "desc": "Conception de refroidissement par circulation" }
+      ]
+    },
+    "gen3": {
+      "name": "Gen 3 - Avec Controle de Temperature",
+      "basic": {
+        "label": "Basique",
+        "price": "1 900 EUR",
+        "desc": "Controle manuel de la temperature par echange thermique via serpentin interne"
+      },
+      "premium": {
+        "label": "Premium",
+        "tag": "Recommande",
+        "price": "2 800 EUR",
+        "desc": "Controle automatique : serpentin interne pour le refroidissement, chauffage de fond pour les lies, favorisant l'autolyse des levures"
+      },
+      "latest": {
+        "title": "Derniere Generation",
+        "desc": "Plus de fonctionnalites optimisees, contactez-nous"
+      }
+    },
+    "priceNotes": {
+      "title": "Notes sur les Tarifs",
+      "items": [
+        "Les prix ci-dessus sont pour une capacite de 1000L ; contactez-nous pour d'autres tailles",
+        "Les prix incluent la livraison a votre domaine",
+        "Garantie d'un an avec support technique a vie"
+      ]
+    }
+  },
+  "SuccessCases": {
+    "title": "Reussites",
+    "subtitle": "Nos jarres ne sont pas seulement belles - elles sont pratiques et eprouvees",
+    "regions": [
+      {
+        "name": "Region du Ningxia",
+        "desc": "La region viticole la plus prometteuse de Chine",
+        "wineries": ["Domaine Xia Mu", "Domaine Mei He", "Domaine Dan Lu", "Domaine Jiu Xi", "Domaine Pu Shang", "Domaine Xiao Pu", "Domaine Ting Yun"]
+      },
+      {
+        "name": "Region du Sichuan",
+        "desc": "Explorer les possibilites infinies du terroir de haute altitude",
+        "wineries": ["Domaine Siguniang Mountain, Xiaojin"]
+      },
+      {
+        "name": "Region du Yunnan",
+        "desc": "Nous comprenons mieux le terroir d'altitude",
+        "wineries": ["Domaine Songtsam, Cizhong", "Domaine Hongpo Yitong, Deqin", "Shuiru Dadi (Maison Rodi), Deqin"]
+      },
+      {
+        "name": "International",
+        "desc": "Les jarres chinoises a la conquete du monde",
+        "wineries": ["Red Corner Estate, Yarra Valley, Australie", "Chili (Projet en cours)"]
+      }
+    ]
+  },
+  "MediaCarousel": {
+    "title": "Galerie",
+    "subtitle": "Videos et images de nos jarres ceramiques",
+    "videoTab": "Videos",
+    "imageTab": "Images"
+  },
+  "Comparison": {
+    "traditional": {
+      "title": "Limites des Jarres Traditionnelles",
+      "items": [
+        "Mauvaise etancheite entrainant un exces d'air, risque d'oxydation et d'augmentation de l'acidite volatile",
+        "Les jarres a joint hydraulique ne peuvent empecher l'entree d'air due a la respiration thermique",
+        "Evacuation des residus, clarification et nettoyage peu pratiques pendant la fermentation",
+        "Pas de controle de temperature, risque d'alcools superieurs excessifs",
+        "Pas de base pour un deplacement facile",
+        "Cuites en dessous de 900 degres C, faible resistance, necessitant un renforcement au ciment"
+      ]
+    },
+    "ours": {
+      "title": "Avantages Chengjing",
+      "items": [
+        "Double usage fermentation et stockage, optimisant l'espace du domaine",
+        "Ton pourpre-rouge elegant transformant l'equipement industriel en esthetique de cave",
+        "Permet la production de petites cuvees premium pour une clientele exigeante",
+        "Excellent controle de l'oxygenation combine aux proprietes catalytiques naturelles preservant les aromes fruites et affinant la structure tannique",
+        "Cuites a 1150-1180 degres C, haute resistance avec structure resistante aux acides"
+      ]
+    }
+  },
+  "Specifications": {
+    "title": "Specifications Techniques",
+    "subtitle": "Specifications des Produits",
+    "nonTemp": {
+      "title": "Jarre Sans Controle de Temperature",
+      "features": ["Port d'evacuation de 25cm", "Serpentin inox interne", "Ideal pour l'elevage"]
+    },
+    "withTemp": {
+      "title": "Jarre Avec Controle de Temperature",
+      "features": ["Serpentin de controle de temperature interne", "Systeme de temperature precis", "Ideal pour fermentation et elevage"]
+    },
+    "capacityTitle": "Capacites Disponibles",
+    "capacities": [
+      { "size": "350L", "desc": "Petite cuvee" },
+      { "size": "500L", "desc": "Domaine moyen" },
+      { "size": "1000L", "desc": "Grande production" },
+      { "size": "3000L", "desc": "Echelle commerciale" }
+    ],
+    "capacityNote": "Adapte a vos besoins"
+  },
+  "Craftsmanship": {
+    "title": "La Poterie Est Notre Tradition",
+    "subtitle": "La fabrication de poterie est notre tradition",
+    "paragraphs": [
+      "Fabriquee en Chine, berceau de milliers d'annees d'histoire ceramique, avec de l'argile naturelle speciale locale cuite a haute temperature.",
+      "En raison de la nature unique de la ceramique, le processus de formage necessite un travail manuel extensif.",
+      "A haute temperature, la matiere organique de l'argile se volatilise, creant des pores ouverts qui conferent a nos jarres leur respirabilite caracteristique."
+    ],
+    "features": [
+      { "title": "Cuisson Haute Temperature", "desc": "1150-1180°C" },
+      { "title": "Fait Main", "desc": "Millenaires de tradition" },
+      { "title": "Materiaux Naturels", "desc": "Argile naturelle speciale" }
+    ]
+  },
+  "InquiryForm": {
+    "title": "Demander un Devis",
+    "subtitle": "Decrivez vos besoins et nous vous repondrons rapidement",
+    "name": "Votre Nom",
+    "email": "Adresse Email",
+    "company": "Domaine / Entreprise",
+    "country": "Pays / Region",
+    "product": "Produits d'Interet",
+    "productOptions": ["Jarre pour Spiritueux", "Gen 1 (Sans Controle Temp.)", "Gen 2 (Avec Controle Temp.)", "Gen 3 (Derniere Gen.)", "Demande Personnalisee"],
+    "message": "Votre Message",
+    "messagePlaceholder": "Parlez-nous de votre domaine, volume de production et besoins specifiques...",
+    "submit": "Envoyer la Demande",
+    "sending": "Envoi en cours...",
+    "success": "Merci ! Nous vous repondrons sous 24 heures.",
+    "error": "Une erreur est survenue. Veuillez reessayer ou nous contacter par email."
+  },
+  "Contact": {
+    "title": "Travaillons Ensemble",
+    "message": "Nous esperons collaborer avec vous, en utilisant des equipements de vinification en argile naturelle, pour creer des vins exceptionnels qui expriment le terroir.",
+    "messageEn": "Work together with you to make natural wine with clay-fired brewing equipment from nature.",
+    "company": "Chengjing Ceramics Co., Ltd.",
+    "address": "District de Rongchang, Chongqing, Chine",
+    "email": "894764515@qq.com",
+    "wechat": "LIGEYUANSHAN"
+  },
+  "Footer": {
+    "brand": "Chengjing Ceramics",
+    "tagline": "Jarres vinicoles professionnelles fabriquees a la main en Chine",
+    "quickLinks": "Liens rapides",
+    "contactLabel": "Contact",
+    "links": {
+      "technology": "Technologie",
+      "products": "Produits",
+      "cases": "Realisations",
+      "contact": "Contactez-nous"
+    },
+    "copyright": "© 2024 Chengjing Ceramics Co., Ltd. Tous droits reserves."
+  },
+  "ContactLabels": {
+    "email": "E-mail :",
+    "wechat": "WeChat :"
+  },
+  "MediaCategories": {
+    "usage": "Utilisation",
+    "production": "Production",
+    "processing": "Traitement",
+    "cases": "Cas"
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "Metadata": {
+    "title": "Amphoras Wine - Vasijas de Ceramica para Vino",
+    "description": "Equipo profesional de vinificación — Vasijas de cerámica con control de temperatura para fermentación y crianza de vino, fabricadas en Rongchang, Chongqing, China. Ánforas y tinajas cerámicas premium para bodegas.",
+    "keywords": "equipo de vinificación,vasija de cerámica para vino,tinaja de fermentación,ánfora de vino,tanque de fermentación de cerámica,vasija de envejecimiento de vino,equipo de bodega,ánfora cerámica"
+  },
+  "CasesMetadata": {
+    "title": "Casos de Exito",
+    "description": "Explore nuestros proyectos vinicolas exitosos en las principales regiones vitivinicolas de China, incluyendo Ningxia, Sichuan, Yunnan y mercados internacionales."
+  },
+  "Navbar": {
+    "brand": "Chengjing Ceramics",
+    "technology": "Tecnologia",
+    "story": "Nuestra Historia",
+    "advantages": "Ventajas",
+    "products": "Productos",
+    "cases": "Casos de Exito",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "tagline": "Equipamiento Vinicola Profesional",
+    "title": "Vasijas de Cerámica para Vino — Fermentación y Crianza Integradas",
+    "subtitle": "Vasijas de ceramica artesanales con control preciso de temperatura para una vinificacion excepcional",
+    "cta": "Descubrir Nuestras Vasijas",
+    "history": "Nuestra Historia",
+    "divider": "Equipamiento de vinificacion de la naturaleza"
+  },
+  "ProductStructure": {
+    "title": "Arquitectura Profesional",
+    "subtitle": "La estructura que una vasija vinicola profesional debe tener",
+    "temperature": {
+      "title": "Sistema de Control de Temperatura",
+      "items": [
+        "Pantalla de termometro",
+        "Puerto de sensor de temperatura",
+        "Sistema de circulacion con serpentin de acero inoxidable"
+      ]
+    },
+    "sampling": {
+      "title": "Sistema de Muestreo",
+      "items": [
+        "Valvula de muestreo",
+        "Diseno de valvula de fondo",
+        "Control de valvula unidireccional"
+      ]
+    },
+    "gas": {
+      "title": "Control de Gases",
+      "items": [
+        "Valvula de inyeccion de nitrogeno",
+        "Entrada de agua de enfriamiento",
+        "Puerto de descarga de 25cm"
+      ]
+    }
+  },
+  "BrandStory": {
+    "title": "Nuestro Patrimonio",
+    "subtitle": "De Rongchang, una de las cuatro regiones reconocidas de arcilla purpura de China",
+    "regions": "(Yixing, Rongchang, Qinzhou, Jianshui)",
+    "features": [
+      {
+        "title": "Siglos de Experiencia Ceramica",
+        "desc": "Rongchang es el primer productor chino de grandes vasijas de 1000L, proveedor designado de las mejores destilerias chinas."
+      },
+      {
+        "title": "Contenido Optimo de Hierro",
+        "desc": "Nuestra arcilla contiene 7-8% de hierro, proporcionando propiedades cataliticas esenciales para el desarrollo del vino mientras preserva los aromas frutales."
+      },
+      {
+        "title": "Pruebas Regulares de Materiales",
+        "desc": "Inspecciones periodicas garantizan cero metales pesados en nuestra arcilla, asegurando la seguridad y calidad del vino."
+      },
+      {
+        "title": "Micro-Oxigenacion Controlada",
+        "desc": "Personalizamos la permeabilidad al oxigeno para diferentes vinos, protegiendo y desarrollando caracteristicas frutales superiores."
+      }
+    ],
+    "craftsmanship": {
+      "title": "Proceso Artesanal",
+      "subtitle": "Una mezcla perfecta de artesania tradicional y tecnologia moderna"
+    }
+  },
+  "CoreAdvantages": {
+    "title": "Ventajas Clave",
+    "subtitle": "Lo que distingue nuestras vasijas",
+    "items": [
+      {
+        "title": "Estructura de Triple Proteccion",
+        "desc": "Nuestra estructura superior patentada incluye valvula unidireccional, proteccion con nitrogeno y sello hidraulico sin oxigeno, ofreciendo frescura significativamente mas prolongada que las vasijas convencionales."
+      },
+      {
+        "title": "Diseno de Gran Apertura",
+        "desc": "Nuestro puerto de descarga mas grande simplifica las operaciones de fermentacion. El efecto de ventilacion mejorado permite que el contenido se seque en 2 horas, frente a mas de 48 horas en disenos de boca pequena, previniendo el crecimiento bacteriano."
+      },
+      {
+        "title": "Solucion Estilo Borgona",
+        "desc": "Para vinos blancos, vasijas selectas incluyen batonnage automatico. Combinado con nuestro programa de duelas de roble, logre vinos blancos de estilo borgones."
+      },
+      {
+        "title": "Programa de Roble Maduro",
+        "desc": "Nuestro enfoque refinado de crianza con duelas de roble preserva abundantes aromas frutales mientras aporta la complejidad de una barrica. Las duelas pueden retirarse sin trasiego."
+      }
+    ],
+    "showcase": {
+      "title": "Muestra de Productos",
+      "subtitle": "Diseno profesional, calidad garantizada"
+    },
+    "noLeak": {
+      "title": "Garantia Cero Fugas",
+      "emphasis": "Absolutamente hermetico",
+      "desc": "Nuestro tratamiento de superficie unico garantiza cero fugas, evitando manchas de residuos de vino en la superficie de la vasija."
+    },
+    "services": [
+      {
+        "title": "Excelencia en Servicio",
+        "desc": "Recomendado por la Alianza de Enologos"
+      },
+      {
+        "title": "Diseno de Doble Uso",
+        "desc": "Fermentacion y almacenamiento integrados"
+      },
+      {
+        "title": "Actualizaciones Gratuitas",
+        "desc": "Optimizacion continua y soporte de por vida"
+      }
+    ]
+  },
+  "ProductLineup": {
+    "title": "Productos y Precios",
+    "subtitle": "Presentacion de Productos y Precios",
+    "spirits": {
+      "name": "Vasija de Crianza para Destilados",
+      "price": "1.100 EUR",
+      "priceNote": "Envio a bodega incluido",
+      "gift": "Programa de seasoning estilo whisky incluido",
+      "giftDesc": "Protocolo profesional de seasoning para mejorar el desarrollo de destilados",
+      "features": [
+        { "title": "Disenada para crianza de destilados", "desc": "Ideal para whisky, brandy, etc." },
+        { "title": "Arcilla de primera calidad", "desc": "Excelente respirabilidad para crianza" },
+        { "title": "Monitoreo preciso de temperatura", "desc": "Equipada con termometro y valvula" },
+        { "title": "Sellado superior", "desc": "Perdida por evaporacion minimizada" }
+      ]
+    },
+    "gen1": {
+      "name": "Gen 1 - Sin Control de Temperatura",
+      "price": "1.550 EUR",
+      "priceNote": "Envio a bodega incluido",
+      "features": [
+        { "title": "Triple proteccion AV", "desc": "Defensa multicapa" },
+        { "title": "Ganchos para duelas", "desc": "Facil instalacion de duelas" },
+        { "title": "Pared micro-oxigenante", "desc": "Control preciso de oxidacion" },
+        { "title": "Valvulas fondo y lateral", "desc": "Sistema de descarga doble" },
+        { "title": "Gran boca de acceso", "desc": "Facil limpieza y mantenimiento" },
+        { "title": "Agitador de lias opcional", "desc": "Accesorio opcional" },
+        { "title": "Termometro y muestreo", "desc": "Monitoreo y muestreo" }
+      ]
+    },
+    "gen2": {
+      "name": "Gen 2 - Con Control de Temperatura",
+      "basic": {
+        "label": "Basico",
+        "price": "1.900 EUR",
+        "desc": "Control manual de temperatura mediante intercambio termico con serpentin interno"
+      },
+      "premium": {
+        "label": "Premium",
+        "tag": "Recomendado",
+        "price": "2.800 EUR",
+        "desc": "Control automatico: serpentin interno para enfriamiento, calentamiento de fondo para lias, promoviendo la autolisis de levaduras"
+      },
+      "features": [
+        { "title": "Entrada de agua fria", "desc": "Sistema de temperatura preciso" },
+        { "title": "Salida de agua fria", "desc": "Diseno de enfriamiento por circulacion" }
+      ]
+    },
+    "gen3": {
+      "name": "Gen 3 - Con Control de Temperatura",
+      "basic": {
+        "label": "Basico",
+        "price": "1.900 EUR",
+        "desc": "Control manual de temperatura mediante intercambio termico con serpentin interno"
+      },
+      "premium": {
+        "label": "Premium",
+        "tag": "Recomendado",
+        "price": "2.800 EUR",
+        "desc": "Control automatico: serpentin interno para enfriamiento, calentamiento de fondo para lias, promoviendo la autolisis de levaduras"
+      },
+      "latest": {
+        "title": "Ultima Generacion",
+        "desc": "Mas funciones optimizadas, contactenos"
+      }
+    },
+    "priceNotes": {
+      "title": "Notas de Precios",
+      "items": [
+        "Los precios anteriores son para capacidad de 1000L; contactenos para otros tamanos",
+        "Los precios incluyen envio a su bodega",
+        "Garantia de un ano con soporte tecnico de por vida"
+      ]
+    }
+  },
+  "SuccessCases": {
+    "title": "Casos de Exito",
+    "subtitle": "Nuestras vasijas no solo son hermosas - son practicas y probadas",
+    "regions": [
+      {
+        "name": "Region de Ningxia",
+        "desc": "La region vinicola mas prometedora de China",
+        "wineries": ["Bodega Xia Mu", "Bodega Mei He", "Bodega Dan Lu", "Bodega Jiu Xi", "Bodega Pu Shang", "Bodega Xiao Pu", "Bodega Ting Yun"]
+      },
+      {
+        "name": "Region de Sichuan",
+        "desc": "Explorando las posibilidades infinitas del terruno de altura",
+        "wineries": ["Bodega Siguniang Mountain, Xiaojin"]
+      },
+      {
+        "name": "Region de Yunnan",
+        "desc": "Entendemos mejor el terruno de altitud",
+        "wineries": ["Bodega Songtsam, Cizhong", "Bodega Hongpo Yitong, Deqin", "Shuiru Dadi (Casa Rodi), Deqin"]
+      },
+      {
+        "name": "Internacional",
+        "desc": "Vasijas chinas conquistando el mundo",
+        "wineries": ["Red Corner Estate, Valle de Yarra, Australia", "Chile (Proyecto en curso)"]
+      }
+    ]
+  },
+  "MediaCarousel": {
+    "title": "Galeria",
+    "subtitle": "Videos e imagenes de nuestras vasijas ceramicas",
+    "videoTab": "Videos",
+    "imageTab": "Imagenes"
+  },
+  "Comparison": {
+    "traditional": {
+      "title": "Limitaciones de las Vasijas Tradicionales",
+      "items": [
+        "Mal sellado que permite exceso de aire, riesgo de oxidacion y aumento de acidez volatil",
+        "Las vasijas con sello hidraulico no pueden prevenir la entrada de aire por respiracion termica",
+        "Evacuacion de residuos, clarificacion y limpieza inconvenientes durante la fermentacion",
+        "Sin control de temperatura, riesgo de alcoholes superiores excesivos por altas temperaturas",
+        "Sin base para facil movilidad",
+        "Cocidas por debajo de 900 grados C, baja resistencia, requiriendo refuerzo de cemento"
+      ]
+    },
+    "ours": {
+      "title": "Ventajas Chengjing",
+      "items": [
+        "Doble uso de fermentacion y almacenamiento, maximizando el espacio de la bodega",
+        "Tono purpura-rojo elegante que transforma equipamiento industrial en estetica de bodega",
+        "Permite produccion premium de pequenos lotes para clientes exigentes",
+        "Excelente control de oxigenacion combinado con propiedades cataliticas naturales que preservan aromas frutales y refinan la estructura tanica",
+        "Cocidas a 1150-1180 grados C, alta resistencia con estructura resistente a acidos"
+      ]
+    }
+  },
+  "Specifications": {
+    "title": "Especificaciones Tecnicas",
+    "subtitle": "Especificaciones del Producto",
+    "nonTemp": {
+      "title": "Vasija Sin Control de Temperatura",
+      "features": ["Puerto de descarga de 25cm", "Serpentin interno de acero inoxidable", "Ideal para crianza"]
+    },
+    "withTemp": {
+      "title": "Vasija Con Control de Temperatura",
+      "features": ["Serpentin interno de control de temperatura", "Sistema de temperatura preciso", "Ideal para fermentacion y crianza"]
+    },
+    "capacityTitle": "Capacidades Disponibles",
+    "capacities": [
+      { "size": "350L", "desc": "Pequeno lote" },
+      { "size": "500L", "desc": "Bodega mediana" },
+      { "size": "1000L", "desc": "Gran produccion" },
+      { "size": "3000L", "desc": "Escala comercial" }
+    ],
+    "capacityNote": "Adaptado a sus necesidades"
+  },
+  "Craftsmanship": {
+    "title": "La Alfareria Es Nuestra Tradicion",
+    "subtitle": "La fabricacion de ceramica es nuestra tradicion",
+    "paragraphs": [
+      "Fabricada en China, cuna de miles de anos de historia ceramica, con arcilla natural especial local cocida a alta temperatura.",
+      "Debido a la naturaleza unica de la ceramica, el proceso de formado requiere un extenso trabajo manual.",
+      "A alta temperatura, la materia organica de la arcilla se volatiliza, creando poros abiertos que dan a nuestras vasijas su caracteristica respirabilidad."
+    ],
+    "features": [
+      { "title": "Coccion a Alta Temperatura", "desc": "1150-1180°C" },
+      { "title": "Hecho a Mano", "desc": "Milenios de tradicion" },
+      { "title": "Materiales Naturales", "desc": "Arcilla natural especial" }
+    ]
+  },
+  "InquiryForm": {
+    "title": "Solicitar Presupuesto",
+    "subtitle": "Cuentenos sus necesidades y le responderemos rapidamente",
+    "name": "Su Nombre",
+    "email": "Correo Electronico",
+    "company": "Bodega / Empresa",
+    "country": "Pais / Region",
+    "product": "Productos de Interes",
+    "productOptions": ["Vasija para Destilados", "Gen 1 (Sin Control Temp.)", "Gen 2 (Con Control Temp.)", "Gen 3 (Ultima Gen.)", "Solicitud Personalizada"],
+    "message": "Su Mensaje",
+    "messagePlaceholder": "Cuentenos sobre su bodega, volumen de produccion y requisitos especificos...",
+    "submit": "Enviar Solicitud",
+    "sending": "Enviando...",
+    "success": "Gracias! Le responderemos en 24 horas.",
+    "error": "Algo salio mal. Por favor intente de nuevo o escribanos directamente."
+  },
+  "Contact": {
+    "title": "Trabajemos Juntos",
+    "message": "Esperamos colaborar con usted, utilizando equipamiento de vinificacion de arcilla natural, para crear vinos excepcionales que expresen el terruno.",
+    "messageEn": "Work together with you to make natural wine with clay-fired brewing equipment from nature.",
+    "company": "Chengjing Ceramics Co., Ltd.",
+    "address": "Distrito de Rongchang, Chongqing, China",
+    "email": "894764515@qq.com",
+    "wechat": "LIGEYUANSHAN"
+  },
+  "Footer": {
+    "brand": "Chengjing Ceramics",
+    "tagline": "Vasijas vinicolas profesionales hechas a mano en China",
+    "quickLinks": "Enlaces rápidos",
+    "contactLabel": "Contacto",
+    "links": {
+      "technology": "Tecnologia",
+      "products": "Productos",
+      "cases": "Casos de Exito",
+      "contact": "Contactenos"
+    },
+    "copyright": "© 2024 Chengjing Ceramics Co., Ltd. Todos los derechos reservados."
+  },
+  "ContactLabels": {
+    "email": "Correo:",
+    "wechat": "WeChat:"
+  },
+  "MediaCategories": {
+    "usage": "Uso",
+    "production": "Producción",
+    "processing": "Procesamiento",
+    "cases": "Casos"
+  }
+}

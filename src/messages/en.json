@@ -1,0 +1,340 @@
+{
+  "Metadata": {
+    "title": "Amphoras Wine - Professional Wine Clay Vessels",
+    "description": "Professional wine making equipment — Temperature-controlled ceramic fermentation and aging vessels from Rongchang, Chongqing, China. Premium wine ceramic jars and amphora vessels for wineries worldwide.",
+    "keywords": "wine making equipment,wine ceramic vessel,fermentation ceramic jar,winemaking clay jar,wine fermentation vessel,ceramic fermenter,wine aging vessel,temperature controlled ceramic jar,winery equipment,amphora wine vessel"
+  },
+  "CasesMetadata": {
+    "title": "Success Cases",
+    "description": "Explore our successful winemaking projects across China's premier wine regions including Ningxia, Sichuan, Yunnan, and international markets."
+  },
+  "Navbar": {
+    "brand": "Chengjing Ceramics",
+    "technology": "Technology",
+    "story": "Our Story",
+    "advantages": "Advantages",
+    "products": "Products",
+    "cases": "Cases",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "tagline": "Professional Wine Equipment",
+    "title": "Professional Wine Ceramic Vessels — Fermentation & Aging Integrated",
+    "subtitle": "Handcrafted ceramic vessels with precision temperature control for exceptional winemaking",
+    "cta": "Explore Our Vessels",
+    "history": "Our History",
+    "divider": "Brewing equipment from nature"
+  },
+  "ProductStructure": {
+    "title": "Professional Vessel Architecture",
+    "subtitle": "The Structure That a Professional Wine Clay Vessel Should Have",
+    "temperature": {
+      "title": "Temperature Control System",
+      "items": [
+        "Temperature gauge display",
+        "Temperature sensor port",
+        "Stainless steel coil circulation system"
+      ]
+    },
+    "sampling": {
+      "title": "Sampling System",
+      "items": [
+        "Sampling valve",
+        "Bottom valve design",
+        "One-way valve control"
+      ]
+    },
+    "gas": {
+      "title": "Gas Control",
+      "items": [
+        "Nitrogen injection valve",
+        "Cooling water inlet",
+        "25cm residue discharge port"
+      ]
+    }
+  },
+  "BrandStory": {
+    "title": "Our Heritage",
+    "subtitle": "From Rongchang, one of China's four renowned purple clay regions",
+    "regions": "(Yixing, Rongchang, Qinzhou, Jianshui)",
+    "features": [
+      {
+        "title": "Centuries of Ceramic Expertise",
+        "desc": "Rongchang is China's earliest producer of 1000L large clay vessels, the designated supplier for top Chinese distilleries."
+      },
+      {
+        "title": "Optimal Iron Content",
+        "desc": "Our clay contains 7-8% iron, providing essential catalytic properties for wine development while preserving fruit aromas."
+      },
+      {
+        "title": "Regular Material Testing",
+        "desc": "Periodic inspections ensure zero heavy metals in our clay, guaranteeing wine safety and quality."
+      },
+      {
+        "title": "Controlled Micro-Oxygenation",
+        "desc": "We customize oxygen permeability for different wines, protecting and developing superior fruit characteristics."
+      }
+    ],
+    "craftsmanship": {
+      "title": "Craftsmanship Process",
+      "subtitle": "A perfect blend of traditional artistry and modern technology"
+    }
+  },
+  "CoreAdvantages": {
+    "title": "Core Advantages",
+    "subtitle": "What sets our vessels apart",
+    "items": [
+      {
+        "title": "Triple Protection Structure",
+        "desc": "Our proprietary top structure features a one-way valve, nitrogen protection, and a unique zero-oxygen water seal, delivering significantly longer freshness than conventional vessels."
+      },
+      {
+        "title": "Large Opening Design",
+        "desc": "Our larger discharge port simplifies fermentation operations. The enhanced ventilation effect allows interior moisture to dry within 2 hours, versus 48+ hours for conventional small-mouth designs, preventing bacterial growth."
+      },
+      {
+        "title": "Burgundy-Style Solution",
+        "desc": "For white wines, select vessels include automatic lees stirring. Combined with our oak stave program and suitable raw materials, achieve Burgundy-style white wines."
+      },
+      {
+        "title": "Mature Oak Program",
+        "desc": "Our refined oak stave aging approach preserves abundant fruit aromas while imparting oak barrel-like complexity. Oak staves can be removed without racking, preventing excessive oak flavor."
+      }
+    ],
+    "showcase": {
+      "title": "Product Showcase",
+      "subtitle": "Professional design, quality guaranteed"
+    },
+    "noLeak": {
+      "title": "Zero Leakage Guarantee",
+      "emphasis": "Absolutely leak-proof",
+      "desc": "Our unique surface treatment ensures zero leakage, preventing wine residue stains from forming on the vessel surface."
+    },
+    "services": [
+      {
+        "title": "Service Excellence",
+        "desc": "Recommended by the Winemakers Alliance"
+      },
+      {
+        "title": "Dual-Purpose Design",
+        "desc": "Integrated fermentation and storage"
+      },
+      {
+        "title": "Continuous Free Upgrades",
+        "desc": "Ongoing optimization and lifetime support"
+      }
+    ]
+  },
+  "ProductLineup": {
+    "title": "Products & Pricing",
+    "subtitle": "Product Display & Pricing",
+    "spirits": {
+      "name": "Spirits Aging Vessel",
+      "price": "$1,200",
+      "priceNote": "Shipping to winery included",
+      "gift": "Free whisky-style seasoning program included",
+      "giftDesc": "Professional seasoning craft to enhance spirit development and quality",
+      "features": [
+        { "title": "Designed for spirits aging", "desc": "Ideal for whisky, brandy, etc." },
+        { "title": "Premium clay material", "desc": "Excellent breathability for aging" },
+        { "title": "Precision temperature monitoring", "desc": "Equipped with gauge & sampling valve" },
+        { "title": "Superior seal", "desc": "Minimized evaporation loss" }
+      ]
+    },
+    "gen1": {
+      "name": "Gen 1 - Non-Temperature Controlled",
+      "price": "$1,700",
+      "priceNote": "Shipping to winery included",
+      "features": [
+        { "title": "Triple VA protection", "desc": "Multi-layer defense" },
+        { "title": "Oak stave hooks", "desc": "Easy oak stave installation" },
+        { "title": "Micro-oxygenation wall", "desc": "Precise oxidation control" },
+        { "title": "Bottom & side valves", "desc": "Dual discharge system" },
+        { "title": "Large manhole opening", "desc": "Easy cleaning & maintenance" },
+        { "title": "Optional lees stirrer", "desc": "Add-on accessory" },
+        { "title": "Temperature gauge & sampling", "desc": "Monitoring & sampling" }
+      ]
+    },
+    "gen2": {
+      "name": "Gen 2 - Temperature Controlled",
+      "basic": {
+        "label": "Basic",
+        "price": "$2,100",
+        "desc": "Manual temperature control via internal coil heat exchange"
+      },
+      "premium": {
+        "label": "Premium",
+        "tag": "Recommended",
+        "price": "$3,100",
+        "desc": "Automatic temperature control: internal coil for cooling, bottom heating for lees, promoting yeast autolysis"
+      },
+      "features": [
+        { "title": "Cooling water inlet", "desc": "Precision temperature system" },
+        { "title": "Cooling water outlet", "desc": "Circulation cooling design" }
+      ]
+    },
+    "gen3": {
+      "name": "Gen 3 - Temperature Controlled",
+      "basic": {
+        "label": "Basic",
+        "price": "$2,100",
+        "desc": "Manual temperature control via internal coil heat exchange"
+      },
+      "premium": {
+        "label": "Premium",
+        "tag": "Recommended",
+        "price": "$3,100",
+        "desc": "Automatic temperature control: internal coil for cooling, bottom heating for lees, promoting yeast autolysis"
+      },
+      "latest": {
+        "title": "Latest Generation",
+        "desc": "More optimized features, contact us for details"
+      }
+    },
+    "priceNotes": {
+      "title": "Pricing Notes",
+      "items": [
+        "Above prices are for 1000L capacity; contact us for other sizes",
+        "Prices include shipping to your winery",
+        "One-year warranty with lifetime technical support"
+      ]
+    }
+  },
+  "SuccessCases": {
+    "title": "Success Stories",
+    "subtitle": "Our vessels are not just beautiful - they are practical and proven",
+    "regions": [
+      {
+        "name": "Ningxia Wine Region",
+        "desc": "China's most promising wine region",
+        "wineries": ["Xia Mu Winery", "Mei He Winery", "Dan Lu Winery", "Jiu Xi Winery", "Pu Shang Winery", "Xiao Pu Winery", "Ting Yun Winery"]
+      },
+      {
+        "name": "Sichuan Wine Region",
+        "desc": "Exploring the infinite possibilities of highland terroir",
+        "wineries": ["Siguniang Mountain Winery, Xiaojin"]
+      },
+      {
+        "name": "Yunnan Wine Region",
+        "desc": "We understand high-altitude terroir better",
+        "wineries": ["Songtsam Winery, Cizhong", "Hongpo Yitong Winery, Deqin", "Shuiru Dadi (Rodi's Home), Deqin"]
+      },
+      {
+        "name": "International",
+        "desc": "Chinese clay vessels going global",
+        "wineries": ["Red Corner Estate, Yarra Valley, Australia", "Chile (Project in Progress)"]
+      }
+    ]
+  },
+  "MediaCarousel": {
+    "title": "Product Gallery",
+    "subtitle": "Videos and images showcasing our ceramic vessels",
+    "videoTab": "Videos",
+    "imageTab": "Images"
+  },
+  "Comparison": {
+    "traditional": {
+      "title": "Traditional Clay Pot Limitations",
+      "items": [
+        "Poor sealing leads to excess air, risking oxidation and volatile acidity increase",
+        "Water-sealed vessels cannot prevent air ingress from temperature-driven breathing",
+        "Inconvenient residue removal, clarification, and cleaning during fermentation",
+        "No temperature control, risking excessive higher alcohols from high fermentation temps",
+        "No base platform for easy mobility",
+        "Fired below 900°C, low strength, requiring external cement reinforcement"
+      ]
+    },
+    "ours": {
+      "title": "Chengjing Advantages",
+      "items": [
+        "Dual-purpose fermentation and storage, maximizing winery space",
+        "Elegant purple-red tone transforms industrial equipment into winery aesthetics",
+        "Enables small-batch premium varietal production for discerning customers",
+        "Excellent oxygenation control combined with natural catalytic properties preserves maximum fruit aroma and refines tannin structure",
+        "Fired at 1150-1180°C, high strength with acid-resistant structure from iron mineral fusion with silicates"
+      ]
+    }
+  },
+  "Specifications": {
+    "title": "Product Specifications",
+    "subtitle": "Product Specifications",
+    "nonTemp": {
+      "title": "Non-Temperature Controlled Vessel",
+      "features": ["25cm discharge port design", "Internal stainless steel coil", "Ideal for aging"]
+    },
+    "withTemp": {
+      "title": "Temperature Controlled Vessel",
+      "features": ["Internal temperature control coil", "Precision temperature system", "Ideal for fermentation & aging"]
+    },
+    "capacityTitle": "Available Capacities",
+    "capacities": [
+      { "size": "350L", "desc": "Small batch fermentation" },
+      { "size": "500L", "desc": "Mid-size winery" },
+      { "size": "1000L", "desc": "Large production" },
+      { "size": "3000L", "desc": "Commercial scale" }
+    ],
+    "capacityNote": "Tailored to your needs"
+  },
+  "Craftsmanship": {
+    "title": "Pottery Is Our Tradition",
+    "subtitle": "Pottery Making is Our Tradition",
+    "paragraphs": [
+      "Crafted in China, home to thousands of years of ceramic history, using locally-sourced special natural clay fired at high temperatures.",
+      "Due to the unique nature of ceramic, the forming process requires extensive handcraftsmanship.",
+      "At high temperatures, organic matter in the clay volatilizes, creating open pores that give our vessels their characteristic breathability."
+    ],
+    "features": [
+      { "title": "High-Temperature Firing", "desc": "1150-1180°C" },
+      { "title": "Handcrafted", "desc": "Millennia of tradition" },
+      { "title": "Natural Materials", "desc": "Special natural clay" }
+    ]
+  },
+  "InquiryForm": {
+    "title": "Request a Quote",
+    "subtitle": "Tell us about your needs and we'll get back to you promptly",
+    "name": "Your Name",
+    "email": "Email Address",
+    "company": "Winery / Company Name",
+    "country": "Country / Region",
+    "product": "Products of Interest",
+    "productOptions": ["Spirits Aging Vessel", "Gen 1 (Non-Temp Controlled)", "Gen 2 (Temp Controlled)", "Gen 3 (Latest)", "Custom Request"],
+    "message": "Your Message",
+    "messagePlaceholder": "Tell us about your winery, production volume, and specific requirements...",
+    "submit": "Send Inquiry",
+    "sending": "Sending...",
+    "success": "Thank you! We'll respond within 24 hours.",
+    "error": "Something went wrong. Please try again or email us directly."
+  },
+  "Contact": {
+    "title": "Let's Work Together",
+    "message": "We hope to work with you, using clay-fired brewing equipment from nature, to create exceptional wines that express the land.",
+    "messageEn": "Work together with you to make natural wine with clay-fired brewing equipment from nature.",
+    "company": "Chengjing Ceramics Co., Ltd.",
+    "address": "Rongchang District, Chongqing, China",
+    "email": "894764515@qq.com",
+    "wechat": "LIGEYUANSHAN"
+  },
+  "Footer": {
+    "brand": "Chengjing Ceramics",
+    "tagline": "Professional wine clay vessels handcrafted in China",
+    "quickLinks": "Quick Links",
+    "contactLabel": "Contact",
+    "links": {
+      "technology": "Technology",
+      "products": "Products",
+      "cases": "Success Stories",
+      "contact": "Contact Us"
+    },
+    "copyright": "© 2024 Chengjing Ceramics Co., Ltd. All rights reserved."
+  },
+  "ContactLabels": {
+    "email": "Email:",
+    "wechat": "WeChat:"
+  },
+  "MediaCategories": {
+    "usage": "Usage",
+    "production": "Production",
+    "processing": "Processing",
+    "cases": "Cases"
+  }
+}
