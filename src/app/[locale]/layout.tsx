@@ -93,7 +93,7 @@ export default async function LocaleLayout({
     "@type": "Organization",
     name: "Amphoras Wine",
     url: BASE_URL,
-    description: (messages as { Metadata?: { description?: string } }).Metadata?.description || "Premium fermentation and aging ceramic vessels for winemaking",
+    description: (messages as { Metadata?: { description?: string } }).Metadata?.description || "Premium fermentation and aging ceramic amphoras for winemaking",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Rongchang",
@@ -103,7 +103,7 @@ export default async function LocaleLayout({
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
-      email: "894764515@qq.com",
+      email: "kvevri@163.com",
     },
     areaServed: "Worldwide",
   };

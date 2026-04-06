@@ -69,7 +69,7 @@ export default function CoreAdvantages() {
             <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-champagne-gold/30 group">
               <img
                 src={images.advantages.img1}
-                alt="Professional ceramic vessel construction ensuring zero-leak performance with precise sealing technology"
+                alt="Professional ceramic amphora construction ensuring zero-leak performance with precise sealing technology"
                 className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
               />
             </div>
@@ -89,7 +89,7 @@ export default function CoreAdvantages() {
             <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-champagne-gold/30 group">
               <img
                 src={images.advantages.img2}
-                alt="High-quality ceramic wine vessel showcasing superior craftsmanship and durability"
+                alt="High-quality ceramic wine amphora showcasing superior craftsmanship and durability"
                 className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
               />
             </div>

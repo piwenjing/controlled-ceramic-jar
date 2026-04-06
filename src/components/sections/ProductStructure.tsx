@@ -32,14 +32,14 @@ export default function ProductStructure() {
             <div className="rounded-2xl overflow-hidden shadow-2xl border-2 border-champagne-gold/30">
               <img
                 src={diagram1}
-                alt="Wine ceramic vessel temperature control system with digital gauge"
+                alt="Wine ceramic amphora temperature control system with digital gauge"
                 className="w-full h-auto"
               />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl border-2 border-champagne-gold/30">
               <img
                 src={diagram2}
-                alt="Ceramic vessel sampling valve and gas control system for fermentation"
+                alt="Ceramic amphora sampling valve and gas control system for fermentation"
                 className="w-full h-auto"
               />
             </div>

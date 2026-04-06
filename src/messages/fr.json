@@ -1,12 +1,12 @@
 {
   "Metadata": {
-    "title": "Amphoras Wine - Jarres en Ceramique pour le Vin",
-    "description": "Équipement professionnel de vinification — Jarres en céramique à température contrôlée pour la fermentation et l'élevage du vin, fabriquées à Rongchang, Chongqing, Chine. Amphores et jarres céramiques premium pour les domaines viticoles.",
-    "keywords": "équipement de vinification,jarre en céramique pour vin,jarre de fermentation en céramique,amphore à vin,cuve de fermentation en céramique,jarre de vieillissement du vin,équipement de cave,amphore céramique"
+    "title": "Amphora Wine | Amphores Vinicoles - Équipement de Fermentation Professionnel",
+    "description": "Amphores de fermentation haut de gamme avec contrôle de température. Fabriquées à Rongchang, Chine. Pour vignerons professionnels du monde entier. Demandez un devis dès aujourd'hui.",
+    "keywords": "amphore de fermentation,équipement vinicole professionnel,cuve de fermentation en céramique,amphore à température contrôlée,jarre de fermentation du vin,équipement de domaine,fournisseur d'amphores,vieillissement du vin,fabricant d'amphores"
   },
   "CasesMetadata": {
-    "title": "Realisations",
-    "description": "Decouvrez nos projets vinicoles reussis dans les premieres regions viticoles de Chine, notamment Ningxia, Sichuan, Yunnan, et sur les marches internationaux."
+    "title": "Cas de Réussite - Projets Viticoles Professionnels avec Amphores",
+    "description": "Découvrez des projets viticoles réussis utilisant des amphores de fermentation en céramique. Études de cas de Ningxia, Sichuan, Yunnan et des vignobles internationaux."
   },
   "Navbar": {
     "brand": "Chengjing Ceramics",
@@ -19,15 +19,15 @@
   },
   "Hero": {
     "tagline": "Equipement Vinicole Professionnel",
-    "title": "Jarres en Céramique pour Vin — Fermentation et Élevage Intégrés",
-    "subtitle": "Jarres en ceramique artisanales avec controle precis de la temperature pour une vinification exceptionnelle",
-    "cta": "Decouvrir Nos Jarres",
+    "title": "Amphores en Céramique pour Vin — Fermentation et Élevage Intégrés",
+    "subtitle": "Amphores en ceramique artisanales avec controle precis de la temperature pour une vinification exceptionnelle",
+    "cta": "Decouvrir Nos Amphores",
     "history": "Notre Histoire",
     "divider": "Equipement de vinification issu de la nature"
   },
   "ProductStructure": {
     "title": "Architecture Professionnelle",
-    "subtitle": "La structure qu'une jarre vinicole professionnelle devrait avoir",
+    "subtitle": "La structure qu'une amphore vinicole professionnelle devrait avoir",
     "temperature": {
       "title": "Systeme de Controle de Temperature",
       "items": [
@@ -60,7 +60,7 @@
     "features": [
       {
         "title": "Des Siecles d'Expertise Ceramique",
-        "desc": "Rongchang est le premier producteur chinois de grandes jarres de 1000L, fournisseur designe des meilleures distilleries chinoises."
+        "desc": "Rongchang est le premier producteur chinois de grandes amphores de 1000L, fournisseur designe des meilleures distilleries chinoises."
       },
       {
         "title": "Teneur en Fer Optimale",
@@ -82,11 +82,11 @@
   },
   "CoreAdvantages": {
     "title": "Avantages Cles",
-    "subtitle": "Ce qui distingue nos jarres",
+    "subtitle": "Ce qui distingue nos amphores",
     "items": [
       {
         "title": "Structure de Triple Protection",
-        "desc": "Notre structure superieure proprietaire comprend un clapet anti-retour, une protection a l'azote et un joint hydraulique sans oxygene unique, offrant une fraicheur nettement plus longue que les jarres conventionnelles."
+        "desc": "Notre structure superieure proprietaire comprend un clapet anti-retour, une protection a l'azote et un joint hydraulique sans oxygene unique, offrant une fraicheur nettement plus longue que les amphores conventionnelles."
       },
       {
         "title": "Conception a Grande Ouverture",
@@ -94,7 +94,7 @@
       },
       {
         "title": "Solution Style Bourgogne",
-        "desc": "Pour les vins blancs, certaines jarres incluent un batonnage automatique des lies. Combine avec notre programme de douelles de chene, obtenez des vins blancs de style bourguignon."
+        "desc": "Pour les vins blancs, certaines amphores incluent un batonnage automatique des lies. Combine avec notre programme de douelles de chene, obtenez des vins blancs de style bourguignon."
       },
       {
         "title": "Programme Chene Mature",
@@ -108,7 +108,7 @@
     "noLeak": {
       "title": "Garantie Zero Fuite",
       "emphasis": "Absolument etanche",
-      "desc": "Notre traitement de surface unique garantit zero fuite, empechant les taches de vin residuel sur la surface de la jarre."
+      "desc": "Notre traitement de surface unique garantit zero fuite, empechant les taches de vin residuel sur la surface de l'amphore."
     },
     "services": [
       {
@@ -129,7 +129,7 @@
     "title": "Produits et Tarifs",
     "subtitle": "Presentation des Produits et Tarification",
     "spirits": {
-      "name": "Jarre d'Elevage pour Spiritueux",
+      "name": "Amphore d'Elevage pour Spiritueux",
       "price": "1 100 EUR",
       "priceNote": "Livraison au domaine incluse",
       "gift": "Programme de seasoning style whisky offert",
@@ -202,7 +202,7 @@
   },
   "SuccessCases": {
     "title": "Reussites",
-    "subtitle": "Nos jarres ne sont pas seulement belles - elles sont pratiques et eprouvees",
+    "subtitle": "Nos amphores ne sont pas seulement belles - elles sont pratiques et eprouvees",
     "regions": [
       {
         "name": "Region du Ningxia",
@@ -221,23 +221,23 @@
       },
       {
         "name": "International",
-        "desc": "Les jarres chinoises a la conquete du monde",
+        "desc": "Les amphores chinoises a la conquete du monde",
         "wineries": ["Red Corner Estate, Yarra Valley, Australie", "Chili (Projet en cours)"]
       }
     ]
   },
   "MediaCarousel": {
     "title": "Galerie",
-    "subtitle": "Videos et images de nos jarres ceramiques",
+    "subtitle": "Videos et images de nos amphores ceramiques",
     "videoTab": "Videos",
     "imageTab": "Images"
   },
   "Comparison": {
     "traditional": {
-      "title": "Limites des Jarres Traditionnelles",
+      "title": "Limites des Amphores Traditionnelles",
       "items": [
         "Mauvaise etancheite entrainant un exces d'air, risque d'oxydation et d'augmentation de l'acidite volatile",
-        "Les jarres a joint hydraulique ne peuvent empecher l'entree d'air due a la respiration thermique",
+        "Les amphores a joint hydraulique ne peuvent empecher l'entree d'air due a la respiration thermique",
         "Evacuation des residus, clarification et nettoyage peu pratiques pendant la fermentation",
         "Pas de controle de temperature, risque d'alcools superieurs excessifs",
         "Pas de base pour un deplacement facile",
@@ -259,11 +259,11 @@
     "title": "Specifications Techniques",
     "subtitle": "Specifications des Produits",
     "nonTemp": {
-      "title": "Jarre Sans Controle de Temperature",
+      "title": "Amphore Sans Controle de Temperature",
       "features": ["Port d'evacuation de 25cm", "Serpentin inox interne", "Ideal pour l'elevage"]
     },
     "withTemp": {
-      "title": "Jarre Avec Controle de Temperature",
+      "title": "Amphore Avec Controle de Temperature",
       "features": ["Serpentin de controle de temperature interne", "Systeme de temperature precis", "Ideal pour fermentation et elevage"]
     },
     "capacityTitle": "Capacites Disponibles",
@@ -281,7 +281,7 @@
     "paragraphs": [
       "Fabriquee en Chine, berceau de milliers d'annees d'histoire ceramique, avec de l'argile naturelle speciale locale cuite a haute temperature.",
       "En raison de la nature unique de la ceramique, le processus de formage necessite un travail manuel extensif.",
-      "A haute temperature, la matiere organique de l'argile se volatilise, creant des pores ouverts qui conferent a nos jarres leur respirabilite caracteristique."
+      "A haute temperature, la matiere organique de l'argile se volatilise, creant des pores ouverts qui conferent a nos amphores leur respirabilite caracteristique."
     ],
     "features": [
       { "title": "Cuisson Haute Temperature", "desc": "1150-1180°C" },
@@ -297,7 +297,7 @@
     "company": "Domaine / Entreprise",
     "country": "Pays / Region",
     "product": "Produits d'Interet",
-    "productOptions": ["Jarre pour Spiritueux", "Gen 1 (Sans Controle Temp.)", "Gen 2 (Avec Controle Temp.)", "Gen 3 (Derniere Gen.)", "Demande Personnalisee"],
+    "productOptions": ["Amphore pour Spiritueux", "Gen 1 (Sans Controle Temp.)", "Gen 2 (Avec Controle Temp.)", "Gen 3 (Derniere Gen.)", "Demande Personnalisee"],
     "message": "Votre Message",
     "messagePlaceholder": "Parlez-nous de votre domaine, volume de production et besoins specifiques...",
     "submit": "Envoyer la Demande",
@@ -311,12 +311,12 @@
     "messageEn": "Work together with you to make natural wine with clay-fired brewing equipment from nature.",
     "company": "Chengjing Ceramics Co., Ltd.",
     "address": "District de Rongchang, Chongqing, Chine",
-    "email": "894764515@qq.com",
+    "email": "kvevri@163.com",
     "wechat": "LIGEYUANSHAN"
   },
   "Footer": {
     "brand": "Chengjing Ceramics",
-    "tagline": "Jarres vinicoles professionnelles fabriquees a la main en Chine",
+    "tagline": "Amphores vinicoles professionnelles fabriquees a la main en Chine",
     "quickLinks": "Liens rapides",
     "contactLabel": "Contact",
     "links": {

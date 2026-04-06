@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <img
           src={images.hero.background}
-          alt="Clay vessel background"
+          alt="Amphora background"
           className="w-full h-full object-cover"
         />
       </div>

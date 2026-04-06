@@ -11,6 +11,11 @@ const nextConfig = {
         hostname: "ligeyuanshan.oss-cn-beijing.aliyuncs.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "ceramic-jar.oss-ap-southeast-1.aliyuncs.com",
+        pathname: "/**",
+      },
     ],
   },
 };

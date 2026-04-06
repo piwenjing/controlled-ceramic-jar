@@ -1,12 +1,12 @@
 {
   "Metadata": {
-    "title": "Amphoras Wine - Vasijas de Ceramica para Vino",
-    "description": "Equipo profesional de vinificación — Vasijas de cerámica con control de temperatura para fermentación y crianza de vino, fabricadas en Rongchang, Chongqing, China. Ánforas y tinajas cerámicas premium para bodegas.",
-    "keywords": "equipo de vinificación,vasija de cerámica para vino,tinaja de fermentación,ánfora de vino,tanque de fermentación de cerámica,vasija de envejecimiento de vino,equipo de bodega,ánfora cerámica"
+    "title": "Amphora Wine | Ánforas de Fermentación - Equipamiento de Bodega Profesional",
+    "description": "Ánforas de fermentación de cerámica premium con control de temperatura. Fabricadas en Rongchang, China. Para bodegas profesionales en todo el mundo. Solicite presupuesto hoy.",
+    "keywords": "ánfora de fermentación,equipo vinícola profesional,tanque de fermentación cerámica,ánfora con control de temperatura,jarra de fermentación vino,equipo de bodega,proveedor de ánforas,fabricante de ánforas"
   },
   "CasesMetadata": {
-    "title": "Casos de Exito",
-    "description": "Explore nuestros proyectos vinicolas exitosos en las principales regiones vitivinicolas de China, incluyendo Ningxia, Sichuan, Yunnan y mercados internacionales."
+    "title": "Casos de Éxito - Proyectos Vinícolas Profesionales con Ánforas",
+    "description": "Explore proyectos vinícolas exitosos que utilizan ánforas de fermentación de cerámica. Estudios de caso de Ningxia, Sichuan, Yunnan y bodegas internacionales."
   },
   "Navbar": {
     "brand": "Chengjing Ceramics",
@@ -19,15 +19,15 @@
   },
   "Hero": {
     "tagline": "Equipamiento Vinicola Profesional",
-    "title": "Vasijas de Cerámica para Vino — Fermentación y Crianza Integradas",
-    "subtitle": "Vasijas de ceramica artesanales con control preciso de temperatura para una vinificacion excepcional",
-    "cta": "Descubrir Nuestras Vasijas",
+    "title": "Ánforas de Cerámica para Vino — Fermentación y Crianza Integradas",
+    "subtitle": "Ánforas de ceramica artesanales con control preciso de temperatura para una vinificacion excepcional",
+    "cta": "Descubrir Nuestras Ánforas",
     "history": "Nuestra Historia",
     "divider": "Equipamiento de vinificacion de la naturaleza"
   },
   "ProductStructure": {
     "title": "Arquitectura Profesional",
-    "subtitle": "La estructura que una vasija vinicola profesional debe tener",
+    "subtitle": "La estructura que una ánfora vinicola profesional debe tener",
     "temperature": {
       "title": "Sistema de Control de Temperatura",
       "items": [
@@ -60,7 +60,7 @@
     "features": [
       {
         "title": "Siglos de Experiencia Ceramica",
-        "desc": "Rongchang es el primer productor chino de grandes vasijas de 1000L, proveedor designado de las mejores destilerias chinas."
+        "desc": "Rongchang es el primer productor chino de grandes ánforas de 1000L, proveedor designado de las mejores destilerias chinas."
       },
       {
         "title": "Contenido Optimo de Hierro",
@@ -82,11 +82,11 @@
   },
   "CoreAdvantages": {
     "title": "Ventajas Clave",
-    "subtitle": "Lo que distingue nuestras vasijas",
+    "subtitle": "Lo que distingue nuestras ánforas",
     "items": [
       {
         "title": "Estructura de Triple Proteccion",
-        "desc": "Nuestra estructura superior patentada incluye valvula unidireccional, proteccion con nitrogeno y sello hidraulico sin oxigeno, ofreciendo frescura significativamente mas prolongada que las vasijas convencionales."
+        "desc": "Nuestra estructura superior patentada incluye valvula unidireccional, proteccion con nitrogeno y sello hidraulico sin oxigeno, ofreciendo frescura significativamente mas prolongada que las ánforas convencionales."
       },
       {
         "title": "Diseno de Gran Apertura",
@@ -94,7 +94,7 @@
       },
       {
         "title": "Solucion Estilo Borgona",
-        "desc": "Para vinos blancos, vasijas selectas incluyen batonnage automatico. Combinado con nuestro programa de duelas de roble, logre vinos blancos de estilo borgones."
+        "desc": "Para vinos blancos, ánforas selectas incluyen batonnage automatico. Combinado con nuestro programa de duelas de roble, logre vinos blancos de estilo borgones."
       },
       {
         "title": "Programa de Roble Maduro",
@@ -108,7 +108,7 @@
     "noLeak": {
       "title": "Garantia Cero Fugas",
       "emphasis": "Absolutamente hermetico",
-      "desc": "Nuestro tratamiento de superficie unico garantiza cero fugas, evitando manchas de residuos de vino en la superficie de la vasija."
+      "desc": "Nuestro tratamiento de superficie unico garantiza cero fugas, evitando manchas de residuos de vino en la superficie de la ánfora."
     },
     "services": [
       {
@@ -129,7 +129,7 @@
     "title": "Productos y Precios",
     "subtitle": "Presentacion de Productos y Precios",
     "spirits": {
-      "name": "Vasija de Crianza para Destilados",
+      "name": "Ánfora de Crianza para Destilados",
       "price": "1.100 EUR",
       "priceNote": "Envio a bodega incluido",
       "gift": "Programa de seasoning estilo whisky incluido",
@@ -202,7 +202,7 @@
   },
   "SuccessCases": {
     "title": "Casos de Exito",
-    "subtitle": "Nuestras vasijas no solo son hermosas - son practicas y probadas",
+    "subtitle": "Nuestras ánforas no solo son hermosas - son practicas y probadas",
     "regions": [
       {
         "name": "Region de Ningxia",
@@ -221,23 +221,23 @@
       },
       {
         "name": "Internacional",
-        "desc": "Vasijas chinas conquistando el mundo",
+        "desc": "Ánforas chinas conquistando el mundo",
         "wineries": ["Red Corner Estate, Valle de Yarra, Australia", "Chile (Proyecto en curso)"]
       }
     ]
   },
   "MediaCarousel": {
     "title": "Galeria",
-    "subtitle": "Videos e imagenes de nuestras vasijas ceramicas",
+    "subtitle": "Videos e imagenes de nuestras ánforas ceramicas",
     "videoTab": "Videos",
     "imageTab": "Imagenes"
   },
   "Comparison": {
     "traditional": {
-      "title": "Limitaciones de las Vasijas Tradicionales",
+      "title": "Limitaciones de las Ánforas Tradicionales",
       "items": [
         "Mal sellado que permite exceso de aire, riesgo de oxidacion y aumento de acidez volatil",
-        "Las vasijas con sello hidraulico no pueden prevenir la entrada de aire por respiracion termica",
+        "Las ánforas con sello hidraulico no pueden prevenir la entrada de aire por respiracion termica",
         "Evacuacion de residuos, clarificacion y limpieza inconvenientes durante la fermentacion",
         "Sin control de temperatura, riesgo de alcoholes superiores excesivos por altas temperaturas",
         "Sin base para facil movilidad",
@@ -259,11 +259,11 @@
     "title": "Especificaciones Tecnicas",
     "subtitle": "Especificaciones del Producto",
     "nonTemp": {
-      "title": "Vasija Sin Control de Temperatura",
+      "title": "Ánfora Sin Control de Temperatura",
       "features": ["Puerto de descarga de 25cm", "Serpentin interno de acero inoxidable", "Ideal para crianza"]
     },
     "withTemp": {
-      "title": "Vasija Con Control de Temperatura",
+      "title": "Ánfora Con Control de Temperatura",
       "features": ["Serpentin interno de control de temperatura", "Sistema de temperatura preciso", "Ideal para fermentacion y crianza"]
     },
     "capacityTitle": "Capacidades Disponibles",
@@ -281,7 +281,7 @@
     "paragraphs": [
       "Fabricada en China, cuna de miles de anos de historia ceramica, con arcilla natural especial local cocida a alta temperatura.",
       "Debido a la naturaleza unica de la ceramica, el proceso de formado requiere un extenso trabajo manual.",
-      "A alta temperatura, la materia organica de la arcilla se volatiliza, creando poros abiertos que dan a nuestras vasijas su caracteristica respirabilidad."
+      "A alta temperatura, la materia organica de la arcilla se volatiliza, creando poros abiertos que dan a nuestras ánforas su caracteristica respirabilidad."
     ],
     "features": [
       { "title": "Coccion a Alta Temperatura", "desc": "1150-1180°C" },
@@ -297,7 +297,7 @@
     "company": "Bodega / Empresa",
     "country": "Pais / Region",
     "product": "Productos de Interes",
-    "productOptions": ["Vasija para Destilados", "Gen 1 (Sin Control Temp.)", "Gen 2 (Con Control Temp.)", "Gen 3 (Ultima Gen.)", "Solicitud Personalizada"],
+    "productOptions": ["Ánfora para Destilados", "Gen 1 (Sin Control Temp.)", "Gen 2 (Con Control Temp.)", "Gen 3 (Ultima Gen.)", "Solicitud Personalizada"],
     "message": "Su Mensaje",
     "messagePlaceholder": "Cuentenos sobre su bodega, volumen de produccion y requisitos especificos...",
     "submit": "Enviar Solicitud",
@@ -311,12 +311,12 @@
     "messageEn": "Work together with you to make natural wine with clay-fired brewing equipment from nature.",
     "company": "Chengjing Ceramics Co., Ltd.",
     "address": "Distrito de Rongchang, Chongqing, China",
-    "email": "894764515@qq.com",
+    "email": "kvevri@163.com",
     "wechat": "LIGEYUANSHAN"
   },
   "Footer": {
     "brand": "Chengjing Ceramics",
-    "tagline": "Vasijas vinicolas profesionales hechas a mano en China",
+    "tagline": "Ánforas vinicolas profesionales hechas a mano en China",
     "quickLinks": "Enlaces rápidos",
     "contactLabel": "Contacto",
     "links": {

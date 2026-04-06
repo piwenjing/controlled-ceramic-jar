@@ -61,14 +61,14 @@ export default function BrandStory() {
             <div className="rounded-2xl overflow-hidden shadow-2xl border-2 border-champagne-gold/30 group">
               <img
                 src={images.craftsmanship.process1}
-                alt="Traditional ceramic wine vessel handcrafting process showing clay molding techniques"
+                alt="Traditional ceramic wine amphora handcrafting process showing clay molding techniques"
                 className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl border-2 border-champagne-gold/30 group">
               <img
                 src={images.craftsmanship.process2}
-                alt="Artisan finishing ceramic wine vessel with detailed surface craftsmanship"
+                alt="Artisan finishing ceramic wine amphora with detailed surface craftsmanship"
                 className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
               />
             </div>
