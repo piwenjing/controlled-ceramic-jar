@@ -2,24 +2,95 @@
 
 import { useTranslations } from "next-intl";
 import SectionHeading from "@/components/ui/SectionHeading";
-import { FaMapMarkerAlt, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { FaMapMarkerAlt, FaChevronLeft, FaChevronRight, FaImage } from "react-icons/fa";
 
 import { useState, useEffect, useCallback } from "react";
 
+// RetryImage component with auto-retry, loading and error states
+interface RetryImageProps {
+  src: string;
+  alt: string;
+  className?: string;
+  loading?: "eager" | "lazy";
+  onLoad?: () => void;
+}
+
+function RetryImage({ src, alt, className = "", loading = "lazy", onLoad }: RetryImageProps) {
+  const [status, setStatus] = useState<"loading" | "loaded" | "error">("loading");
+  const [retryCount, setRetryCount] = useState(0);
+  const maxRetries = 3;
+
+  const getRetrySrc = (originalSrc: string, retry: number) => {
+    if (retry === 0) return originalSrc;
+    const separator = originalSrc.includes("?") ? "&" : "?";
+    return `${originalSrc}${separator}retry=${retry}`;
+  };
+
+  const handleError = useCallback(() => {
+    if (retryCount < maxRetries) {
+      const nextRetry = retryCount + 1;
+      const delay = nextRetry * 1000; // 1s, 2s, 3s delays
+      
+      setTimeout(() => {
+        setRetryCount(nextRetry);
+        setStatus("loading");
+      }, delay);
+    } else {
+      setStatus("error");
+    }
+  }, [retryCount]);
+
+  const handleLoad = useCallback(() => {
+    setStatus("loaded");
+    onLoad?.();
+  }, [onLoad]);
+
+  // Reset state when src changes
+  useEffect(() => {
+    setStatus("loading");
+    setRetryCount(0);
+  }, [src]);
+
+  if (status === "error") {
+    return (
+      <div className={`${className} bg-wine-red/10 flex flex-col items-center justify-center`}>
+        <FaImage className="w-8 h-8 text-wine-red/40 mb-2" />
+        <span className="text-wine-red/60 text-xs">图片加载失败</span>
+      </div>
+    );
+  }
+
+  return (
+    <div className="relative w-full h-full">
+      {status === "loading" && (
+        <div className="absolute inset-0 bg-wine-red/20 animate-pulse" />
+      )}
+      <img
+        src={getRetrySrc(src, retryCount)}
+        alt={alt}
+        className={`${className} ${status === "loading" ? "opacity-0" : "opacity-100"} transition-opacity duration-300`}
+        loading={loading}
+        onLoad={handleLoad}
+        onError={handleError}
+      />
+    </div>
+  );
+}
+
 const caseImages = [
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114030_468_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114029_467_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114026_466_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114023_465_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114020_464_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114017_463_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113927_461_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113924_460_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113921_459_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113916_458_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113909_457_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113905_456_226.jpg",
-  "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113902_455_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114030_468_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114029_467_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114026_466_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114023_465_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114020_464_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114017_463_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113927_461_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113924_460_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113921_459_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113916_458_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113909_457_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113905_456_226.jpg",
+  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113902_455_226.jpg",
 ];
 
 function ImageCarousel() {
@@ -95,10 +166,11 @@ function ImageCarousel() {
                 onClick={() => openLightbox(index)}
               >
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-wine-red/20">
-                  <img
+                  <RetryImage
                     src={src}
                     alt={`Wine amphora success case ${index + 1}`}
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    loading={index < 4 ? "eager" : "lazy"}
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
                 </div>
@@ -180,10 +252,11 @@ function ImageCarousel() {
             className="relative w-full max-w-5xl aspect-[4/3]"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
+            <RetryImage
               src={caseImages[lightboxIndex]}
               alt={`Wine amphora success case ${lightboxIndex + 1}`}
               className="w-full h-full object-contain"
+              loading="eager"
             />
           </div>
 

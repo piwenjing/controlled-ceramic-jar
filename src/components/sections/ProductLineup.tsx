@@ -17,7 +17,7 @@ export default function ProductLineup() {
   // 非中文版本使用新的图片链接
   const gen2Image = locale === "zh" 
     ? images.products.gen2 
-    : "https://ceramic-jar.oss-ap-southeast-1.aliyuncs.com/medio/%E9%99%B6%E7%BD%90%E7%BB%93%E6%9E%84%E5%9B%BE.png";
+    : "https://ligeyuanshan.oss-accelerate.aliyuncs.com/medio/%E9%99%B6%E7%BD%90%E7%BB%93%E6%9E%84%E5%9B%BE.png";
 
   return (
     <section

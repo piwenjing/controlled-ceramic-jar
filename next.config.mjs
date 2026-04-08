@@ -8,12 +8,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "ligeyuanshan.oss-cn-beijing.aliyuncs.com",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "ceramic-jar.oss-ap-southeast-1.aliyuncs.com",
+        hostname: "ligeyuanshan.oss-accelerate.aliyuncs.com",
         pathname: "/**",
       },
     ],
