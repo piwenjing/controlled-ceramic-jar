@@ -27,6 +27,7 @@ export async function generateMetadata({
   return {
     title: casesMeta.title,
     description: casesMeta.description,
+    robots: "noindex,follow",
     alternates: {
       canonical: `${BASE_URL}${getLocalePath(locale)}/cases`,
     },

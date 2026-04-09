@@ -12,25 +12,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return locale === routing.defaultLocale ? "" : `/${locale}`;
   };
 
-  // Add homepage entries for all locales
+  // Build alternates languages object for homepage
+  const languages: Record<string, string> = {};
   for (const locale of routing.locales) {
-    entries.push({
-      url: `${BASE_URL}${getLocalePath(locale)}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 1,
-    });
+    languages[locale] = `${BASE_URL}${getLocalePath(locale)}`;
   }
 
-  // Add /cases page entries for all locales
-  for (const locale of routing.locales) {
-    entries.push({
-      url: `${BASE_URL}${getLocalePath(locale)}/cases`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    });
-  }
+  // Add homepage entry with alternates for multilingual SEO
+  entries.push({
+    url: BASE_URL,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: 1,
+    alternates: {
+      languages,
+    },
+  });
 
   return entries;
 }
