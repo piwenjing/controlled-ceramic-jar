@@ -18,16 +18,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     languages[locale] = `${BASE_URL}${getLocalePath(locale)}`;
   }
 
-  // Add homepage entry with alternates for multilingual SEO
-  entries.push({
-    url: BASE_URL,
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 1,
-    alternates: {
-      languages,
-    },
-  });
+  // Add homepage entries for each locale with alternates for multilingual SEO
+  for (const locale of routing.locales) {
+    entries.push({
+      url: `${BASE_URL}${getLocalePath(locale)}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 1,
+      alternates: {
+        languages,
+      },
+    });
+  }
 
   return entries;
 }
