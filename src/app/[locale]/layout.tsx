@@ -5,6 +5,7 @@ import { Cinzel, Playfair_Display, Lato } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { generateVideoJsonLd } from "@/lib/videos";
 
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-cinzel", display: "swap" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair", display: "swap" });
@@ -87,8 +88,15 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
 
-  // Schema.org JSON-LD structured data
-  const jsonLd = {
+  // Helper function to generate URL path based on localePrefix: "as-needed" strategy
+  const getLocalePath = (loc: string) => {
+    return loc === routing.defaultLocale ? "" : `/${loc}`;
+  };
+
+  const pageUrl = `${BASE_URL}${getLocalePath(locale)}`;
+
+  // Schema.org JSON-LD structured data - Organization
+  const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Amphoras Wine",
@@ -108,13 +116,20 @@ export default async function LocaleLayout({
     areaServed: "Worldwide",
   };
 
+  // Schema.org JSON-LD structured data - VideoObject array
+  const videoJsonLd = generateVideoJsonLd(locale as "en" | "zh" | "fr" | "es", pageUrl);
+
   return (
     <html lang={locale}>
       <body className={`${fontVariables} bg-wine-dark min-h-screen text-white font-sans`}>
         <NextIntlClientProvider messages={messages}>
           <script
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(videoJsonLd) }}
           />
           <Navbar />
           <main>{children}</main>
