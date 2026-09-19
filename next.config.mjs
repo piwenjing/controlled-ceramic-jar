@@ -13,7 +13,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com",
+        hostname: "ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com",
         pathname: "/**",
       },
     ],

@@ -186,7 +186,7 @@ export default async function LocaleLayout({
       "Professional ceramic amphora with precision temperature control for fermentation and aging. 1000L standard, handcrafted in Rongchang, China.",
     image: [
       OG_IMAGE_URL,
-      "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com/jar/attach/%E6%9C%AA%E5%91%BD%E5%90%8D.webp",
+      "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com/jar/attach/%E6%9C%AA%E5%91%BD%E5%90%8D.webp",
     ],
     brand: { "@type": "Brand", name: "Chengjing Ceramics" },
     manufacturer: { "@id": `${BASE_URL}#organization` },

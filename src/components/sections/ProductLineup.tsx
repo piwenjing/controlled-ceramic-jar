@@ -25,7 +25,7 @@ export default function ProductLineup() {
   // 非中文版本使用新的图片链接
   const gen2Image = locale === "zh"
     ? images.products.gen2
-    : "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com/jar/attach/%E6%9C%AA%E5%91%BD%E5%90%8D.webp";
+    : "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com/jar/attach/%E6%9C%AA%E5%91%BD%E5%90%8D.webp";
 
   // 灯箱(点击图片放大)
   const [lightboxOpen, setLightboxOpen] = useState(false);

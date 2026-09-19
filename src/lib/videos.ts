@@ -34,7 +34,7 @@ interface VideoData {
 export const videos: VideoData[] = [
   // === Usage Tutorials (2 videos) ===
   {
-    contentUrl: "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-1.mp4",
+    contentUrl: "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-1.mp4",
     thumbnailUrl: images.hero.background,
     uploadDate: "2024-01-01",
     content: {
@@ -43,7 +43,7 @@ export const videos: VideoData[] = [
     },
   },
   {
-    contentUrl: "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-2.mp4",
+    contentUrl: "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-2.mp4",
     thumbnailUrl: images.hero.background,
     uploadDate: "2024-01-01",
     content: {
@@ -53,7 +53,7 @@ export const videos: VideoData[] = [
   },
   // === Production Process (2 videos) ===
   {
-    contentUrl: "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-2.mp4",
+    contentUrl: "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-2.mp4",
     thumbnailUrl: images.craftsmanship.process1,
     uploadDate: "2024-01-01",
     content: {
@@ -62,7 +62,7 @@ export const videos: VideoData[] = [
     },
   },
   {
-    contentUrl: "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-1.mp4",
+    contentUrl: "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-1.mp4",
     thumbnailUrl: images.craftsmanship.process1,
     uploadDate: "2024-01-01",
     content: {

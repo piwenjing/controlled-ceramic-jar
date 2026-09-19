@@ -184,14 +184,14 @@ export default function MediaCarousel() {
   const usageVideos: MediaItem[] = [
     {
       type: "video",
-      src: "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-1.mp4",
+      src: "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-1.mp4",
       thumbnail: heroThumb,
       title: "Usage Tutorial 1",
       description: "How to use the ceramic amphora",
     },
     {
       type: "video",
-      src: "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-2.mp4",
+      src: "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-2.mp4",
       thumbnail: heroThumb,
       title: "Usage Tutorial 2",
       description: "How to use the ceramic amphora",
@@ -205,14 +205,14 @@ export default function MediaCarousel() {
   const productionVideos: MediaItem[] = [
     {
       type: "video",
-      src: "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-2.mp4",
+      src: "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-2.mp4",
       thumbnail: craftThumb,
       title: "Production Process 1",
       description: "Ceramic amphora production",
     },
     {
       type: "video",
-      src: "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-1.mp4",
+      src: "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com/jar/attach/video/use/%E4%BD%BF%E7%94%A8-1.mp4",
       thumbnail: craftThumb,
       title: "Production Process 2",
       description: "Ceramic amphora production",

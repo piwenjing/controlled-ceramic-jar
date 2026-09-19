@@ -1,7 +1,7 @@
 /**
  * 图片资源中心 —— 所有图片 URL 唯一来源
  *
- * 图片资源都托管在阿里云 OSS,迁移后统一走新 bucket (`ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com`),
+ * 图片资源都托管在阿里云 OSS,迁移后统一走新 bucket (`ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com`),
  * 修改/替换图片时只需要改这里,组件通过 `import { images } from "@/lib/images"` 引用。
  *
  * 命名规范:每个分组对应页面里的一个 section / 组件,新增 key 时请在注释里写明
@@ -32,8 +32,8 @@
 
 // 旧 OSS 加速域名(历史图片,迁移完成后会逐步清空)
 const OSS = "https://ligeyuanshan.oss-accelerate.aliyuncs.com";
-// 新 OSS bucket(2026-09 起所有新上传 + 迁移到此),东南亚节点 ap-southeast-1
-const OSS_N = "https://ligeyuanshan-taoguan.oss-ap-southeast-1.aliyuncs.com";
+// 新 OSS bucket(2026-09 起所有新上传 + 迁移到此),东南亚节点,走全球加速 (OSS 传输加速)
+const OSS_N = "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com";
 
 export const images = {
   /**
