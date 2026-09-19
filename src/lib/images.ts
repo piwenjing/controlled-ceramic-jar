@@ -30,9 +30,8 @@
  * ──────────────────────────────────────────────────────────────
  */
 
-// 旧 OSS 加速域名(历史图片,迁移完成后会逐步清空)
-const OSS = "https://ligeyuanshan.oss-accelerate.aliyuncs.com";
-// 新 OSS bucket(2026-09 起所有新上传 + 迁移到此),东南亚节点,走全球加速 (OSS 传输加速)
+// OSS 全球加速域名(2026-09 迁移完成,所有图片统一通过此 hostname 访问)
+// 老 bucket (ligeyuanshan) 和新 bucket (ligeyuanshan-taoguan) 都已迁到此域名
 const OSS_N = "https://ligeyuanshan-taoguan.oss-accelerate.aliyuncs.com";
 
 export const images = {
@@ -82,8 +81,8 @@ export const images = {
    *   img3 = 优势图 3(背景层 CSS backgroundImage)
    */
   advantages: {
-    img1: `${OSS}/%E9%99%B6%E7%BD%90/%E5%9B%BE%E7%89%87/%E4%BC%98%E5%8A%BF1.png`,
-    img3: `${OSS}/%E9%99%B6%E7%BD%90/%E5%9B%BE%E7%89%87/%E4%BC%98%E5%8A%BF3.png`,
+    img1: `${OSS_N}/%E9%99%B6%E7%BD%90/%E5%9B%BE%E7%89%87/%E4%BC%98%E5%8A%BF1.png`,
+    img3: `${OSS_N}/%E9%99%B6%E7%BD%90/%E5%9B%BE%E7%89%87/%E4%BC%98%E5%8A%BF3.png`,
   },
 
   /**
@@ -96,11 +95,11 @@ export const images = {
    * 非中文版本当前直接硬编码 URL 在 ProductLineup.tsx 里(需要时可抽到此)
    */
   products: {
-    spirits: `${OSS}/%E9%99%B6%E7%BD%90/%E5%9B%BE%E7%89%87/%E7%AC%AC0%E4%BB%A3.png`,
-    gen1: `${OSS}/%E9%99%B6%E7%BD%90/%E5%9B%BE%E7%89%87/%E7%AC%AC%E4%B8%80%E4%BB%A3.png`,
+    spirits: `${OSS_N}/%E9%99%B6%E7%BD%90/%E5%9B%BE%E7%89%87/%E7%AC%AC0%E4%BB%A3.png`,
+    gen1: `${OSS_N}/%E9%99%B6%E7%BD%90/%E5%9B%BE%E7%89%87/%E7%AC%AC%E4%B8%80%E4%BB%A3.png`,
     // Gen 2 主图 —— 2026-09 替换(文件名:未命名.webp)
     gen2: `${OSS_N}/jar/attach/%E6%9C%AA%E5%91%BD%E5%90%8D.webp`,
-    gen3: `${OSS}/%E9%99%B6%E7%BD%90/%E5%9B%BE%E7%89%87/%E7%AC%AC%E4%B8%89%E4%BB%A3.png`,
+    gen3: `${OSS_N}/%E9%99%B6%E7%BD%90/%E5%9B%BE%E7%89%87/%E7%AC%AC%E4%B8%89%E4%BB%A3.png`,
   },
 
   /**
