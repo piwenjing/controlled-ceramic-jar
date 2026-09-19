@@ -1,0 +1,20 @@
+# ─────────────────────────────
+# 依赖 / 锁文件 / IDE
+# ─────────────────────────────
+node_modules/
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# ─────────────────────────────
+# tools/ 里的产物(PNG/HTML/WebP 输出)
+# 两个 .mjs 脚本本身会保留(headless-shot + optimize-product-image)
+# ─────────────────────────────
+tools/compressed/
+tools/amphora-*.png
+tools/amphora-*.html
+tools/amphora-*.webp
+
+# 保留测试输出例外
+!tools/.gitkeep

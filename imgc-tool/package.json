@@ -1,0 +1,22 @@
+{
+  "name": "imgc",
+  "version": "1.0.0",
+  "description": "个人图片压缩 CLI(macOS / WebP / JPG / PNG),Finder 拖拽即用",
+  "type": "module",
+  "bin": {
+    "imgc": "./imgc.mjs"
+  },
+  "scripts": {
+    "start": "node imgc.mjs"
+  },
+  "dependencies": {
+    "glob": "^11.0.0",
+    "sharp": "^0.34.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true,
+  "author": "piwenjing",
+  "license": "MIT"
+}
