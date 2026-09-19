@@ -1,4 +1,4 @@
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { images } from "@/lib/images";
 import {
@@ -12,16 +12,15 @@ const keys = ["temperature", "sampling", "gas"] as const;
 
 export default function ProductStructure() {
   const t = useTranslations("ProductStructure");
-  const locale = useLocale() as "zh" | "en" | "fr" | "es";
 
-  // Get diagram images based on locale (default to English)
-  const diagram1 = images.structure.diagram1[locale] || images.structure.diagram1.en;
-  const diagram2 = images.structure.diagram2[locale] || images.structure.diagram2.en;
+  // 结构图只支持英文版
+  const diagram1 = images.structure.diagram1.en;
+  const diagram2 = images.structure.diagram2.en;
 
   return (
     <section
       id="technology"
-      className="relative py-10 md:py-20 lg:py-28 bg-gradient-to-b from-wine-dark to-wine-red/20 scroll-mt-16"
+      className="relative py-6 md:py-20 lg:py-28 bg-gradient-to-b from-wine-dark to-wine-red/20 scroll-mt-16"
     >
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />

@@ -13,7 +13,7 @@ export default function CoreAdvantages() {
   return (
     <section
       id="advantages"
-      className="relative py-10 md:py-20 lg:py-28 bg-gradient-to-b from-wine-red/20 to-wine-dark scroll-mt-16"
+      className="relative py-6 md:py-20 lg:py-28 bg-gradient-to-b from-wine-red/20 to-wine-dark scroll-mt-16"
     >
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
@@ -66,15 +66,7 @@ export default function CoreAdvantages() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-4 md:gap-6 items-center">
-            <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-champagne-gold/30 group">
-              <img
-                src={images.advantages.img1}
-                alt="Professional ceramic amphora construction ensuring zero-leak performance with precise sealing technology"
-                className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
-              />
-            </div>
-
-            <div className="bg-gradient-to-br from-champagne-gold/20 to-champagne-gold/5 border border-champagne-gold/50 rounded-2xl p-4 sm:p-6 md:p-8">
+            <div className="md:col-start-2 md:col-span-1 bg-gradient-to-br from-champagne-gold/20 to-champagne-gold/5 border border-champagne-gold/50 rounded-2xl p-4 sm:p-6 md:p-8">
               <div className="mb-4 text-center">
                 <FaCertificate className="text-5xl text-champagne-gold mx-auto" />
               </div>
@@ -84,14 +76,6 @@ export default function CoreAdvantages() {
               <p className="text-gray-300 leading-relaxed text-center">
                 {t("noLeak.desc")}
               </p>
-            </div>
-
-            <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-champagne-gold/30 group">
-              <img
-                src={images.advantages.img2}
-                alt="High-quality ceramic wine amphora showcasing superior craftsmanship and durability"
-                className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
-              />
             </div>
           </div>
         </div>

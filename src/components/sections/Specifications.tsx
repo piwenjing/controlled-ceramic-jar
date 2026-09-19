@@ -10,7 +10,7 @@ export default function Specifications() {
     t.raw("capacities");
 
   return (
-    <section className="relative py-10 md:py-20 lg:py-28 bg-wine-dark scroll-mt-16">
+    <section className="relative py-6 md:py-20 lg:py-28 bg-wine-dark scroll-mt-16">
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
 

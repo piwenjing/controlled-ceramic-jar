@@ -51,7 +51,7 @@ export default function InquiryForm() {
   return (
     <section
       id="inquiry"
-      className="relative py-10 md:py-20 lg:py-28 bg-gradient-to-b from-wine-dark to-wine-red/20 scroll-mt-16"
+      className="relative py-6 md:py-20 lg:py-28 bg-gradient-to-b from-wine-dark to-wine-red/20 scroll-mt-16"
     >
       <div className="max-w-3xl mx-auto px-6">
         <div className="text-center mb-8 md:mb-12">

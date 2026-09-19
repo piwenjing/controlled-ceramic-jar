@@ -117,7 +117,7 @@ export default async function LocaleLayout({
   };
 
   // Schema.org JSON-LD structured data - VideoObject array
-  const videoJsonLd = generateVideoJsonLd(locale as "en" | "zh" | "fr" | "es", pageUrl);
+  const videoJsonLd = generateVideoJsonLd(locale as "en", pageUrl);
 
   return (
     <html lang={locale}>

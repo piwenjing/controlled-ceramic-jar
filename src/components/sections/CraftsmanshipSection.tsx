@@ -9,7 +9,7 @@ export default function CraftsmanshipSection() {
   const features: Array<{ title: string; desc: string }> = t.raw("features");
 
   return (
-    <section className="relative py-10 md:py-20 lg:py-28 bg-gradient-to-b from-wine-red/20 to-wine-dark scroll-mt-16">
+    <section className="relative py-6 md:py-20 lg:py-28 bg-gradient-to-b from-wine-red/20 to-wine-dark scroll-mt-16">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-champagne-gold mb-4">

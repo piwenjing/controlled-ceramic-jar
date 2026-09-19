@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import SectionHeading from "@/components/ui/SectionHeading";
+import { images } from "@/lib/images";
 import { FaMapMarkerAlt, FaChevronLeft, FaChevronRight, FaImage } from "react-icons/fa";
 
 import { useState, useEffect, useCallback } from "react";
@@ -77,21 +78,7 @@ function RetryImage({ src, alt, className = "", loading = "lazy", onLoad }: Retr
   );
 }
 
-const caseImages = [
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114030_468_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114029_467_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114026_466_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114023_465_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114020_464_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406114017_463_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113927_461_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113924_460_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113921_459_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113916_458_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113909_457_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113905_456_226.jpg",
-  "https://ligeyuanshan.oss-accelerate.aliyuncs.com/pic-2-successeg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260406113902_455_226.jpg",
-];
+const caseImages = images.successCases;
 
 function ImageCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -280,7 +267,7 @@ export default function SuccessCases() {
   return (
     <section
       id="cases"
-      className="relative py-10 md:py-20 lg:py-28 bg-wine-dark scroll-mt-16"
+      className="relative py-6 md:py-20 lg:py-28 bg-wine-dark scroll-mt-16"
     >
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />

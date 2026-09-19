@@ -39,7 +39,7 @@ export default function ContactInfo() {
   return (
     <section
       id="contact"
-      className="relative py-10 md:py-20 lg:py-28 bg-gradient-to-b from-wine-red/20 to-wine-dark scroll-mt-16"
+      className="relative py-6 md:py-20 lg:py-28 bg-gradient-to-b from-wine-red/20 to-wine-dark scroll-mt-16"
     >
       <div className="max-w-4xl mx-auto px-6 text-center">
         <div className="bg-gradient-to-br from-champagne-gold/10 to-transparent border border-champagne-gold/30 rounded-2xl p-6 sm:p-8 md:p-12">

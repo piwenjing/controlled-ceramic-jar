@@ -17,7 +17,7 @@ export default function BrandStory() {
   return (
     <section
       id="story"
-      className="relative py-10 md:py-20 lg:py-28 bg-wine-dark scroll-mt-16"
+      className="relative py-6 md:py-20 lg:py-28 bg-wine-dark scroll-mt-16"
     >
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
