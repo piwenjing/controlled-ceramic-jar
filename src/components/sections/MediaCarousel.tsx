@@ -56,6 +56,7 @@ function MediaPanel({
             <video
               ref={videoRef}
               src={currentItem.src}
+              poster={currentItem.thumbnail}
               className="w-full h-full object-contain"
               onEnded={() => onTogglePlay?.()}
               preload="metadata"
@@ -132,7 +133,16 @@ function MediaPanel({
             aria-label={`Item ${index + 1}`}
           >
             {isVideo ? (
-              <video src={item.src} className="w-full h-full object-cover" preload="metadata" />
+              item.thumbnail ? (
+                <img
+                  src={item.thumbnail}
+                  alt={item.title}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                // 没有封面图时降级到 video 标签(fallback)
+                <video src={item.src} className="w-full h-full object-cover" preload="none" />
+              )
             ) : (
               <img src={item.src} alt={item.title} className="w-full h-full object-cover" />
             )}
